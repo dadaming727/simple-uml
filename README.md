@@ -1,6 +1,36 @@
 ## 介绍
 
-项目介绍
+在线编辑器工具集 - 集成 Markdown、PlantUML 和 Mermaid 在线编辑功能的 web 工具平台，支持实时预览效果，帮助用户快速完成文档编写和图表绘制。
+
+## 功能特性
+
+### 1. Markdown 编辑器
+- ✅ 左右分屏编辑预览模式
+- ✅ 实时渲染预览
+- ✅ 支持 GFM 语法（GitHub Flavored Markdown）
+- ✅ 代码语法高亮
+- ✅ 导出 HTML 和 Markdown 文件
+
+### 2. PlantUML 编辑器
+- ✅ 在线绘制 UML 图表
+- ✅ 支持类图、时序图、流程图等
+- ✅ 实时生成图表预览
+- ✅ 导出 PNG 和 SVG 格式
+
+### 3. Mermaid 编辑器
+- ✅ 使用 Mermaid 语法创建图表
+- ✅ 支持流程图、时序图、甘特图等
+- ✅ 实时渲染预览
+- ✅ 导出 PNG 和 SVG 格式
+
+## 快速开始
+
+1. **选择编辑器**：从首页选择您需要的编辑器（Markdown、PlantUML 或 Mermaid）
+2. **编写内容**：在编辑区域输入内容
+3. **查看预览**：
+   - Markdown：实时预览
+   - PlantUML/Mermaid：点击"生成图表"按钮
+4. **导出结果**：使用导出功能保存您的作品
 
 ## 目录结构
 
@@ -35,7 +65,14 @@
 
 ## 技术栈
 
-Vite、TypeScript、React、Supabase
+- **前端框架**：React 18 + TypeScript
+- **构建工具**：Vite
+- **UI 组件**：shadcn/ui + Tailwind CSS
+- **路由**：React Router v7
+- **Markdown 渲染**：react-markdown + remark-gfm + rehype-highlight
+- **PlantUML**：plantuml-encoder（使用在线服务）
+- **Mermaid**：mermaid（客户端渲染）
+- **代码高亮**：highlight.js
 
 ## 本地开发
 

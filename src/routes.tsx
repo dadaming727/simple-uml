@@ -1,4 +1,7 @@
-import SamplePage from './pages/SamplePage';
+import HomePage from './pages/HomePage';
+import MarkdownEditorPage from './pages/MarkdownEditorPage';
+import PlantUMLEditorPage from './pages/PlantUMLEditorPage';
+import MermaidEditorPage from './pages/MermaidEditorPage';
 import type { ReactNode } from 'react';
 
 interface RouteConfig {
@@ -10,9 +13,24 @@ interface RouteConfig {
 
 const routes: RouteConfig[] = [
   {
-    name: 'Sample Page',
+    name: '首页',
     path: '/',
-    element: <SamplePage />
+    element: <HomePage />
+  },
+  {
+    name: 'Markdown 编辑器',
+    path: '/markdown',
+    element: <MarkdownEditorPage />
+  },
+  {
+    name: 'PlantUML 编辑器',
+    path: '/plantuml',
+    element: <PlantUMLEditorPage />
+  },
+  {
+    name: 'Mermaid 编辑器',
+    path: '/mermaid',
+    element: <MermaidEditorPage />
   }
 ];
 
