@@ -138,7 +138,7 @@ importers:
         specifier: ^11.12.2
         version: 11.12.2
       miaoda-auth-react:
-        specifier: ^2.0.6
+        specifier: 2.0.6
         version: 2.0.6(@supabase/supabase-js@2.76.1)(react-dom@18.3.1(react@18.3.1))(react-router-dom@7.9.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       miaoda-sc-plugin:
         specifier: 1.0.51
@@ -2770,7 +2770,7 @@ packages:
     resolution: {integrity: sha512-n34QPDPEKmaeCG4WDMGy0OT6PSyxKCfy2pJgShP+Qow2KLrvWjclwbc3yXfSIf4BanqWEhQEpngWwNp/XhZt6w==, tarball: http://registry.npm.baidu-int.com/mermaid/-/mermaid-11.12.2.tgz}
 
   miaoda-auth-react@2.0.6:
-    resolution: {integrity: sha512-Cv/uraKbJuG3aIzsTZ1zy+iPAM2M9loqFlzmaHa7q7SJ9Q3lLlWtTV+dcxrrLHVymEzpHtAQ/XmDI3OTC6CD2g==}
+    resolution: {integrity: sha512-Cv/uraKbJuG3aIzsTZ1zy+iPAM2M9loqFlzmaHa7q7SJ9Q3lLlWtTV+dcxrrLHVymEzpHtAQ/XmDI3OTC6CD2g==, tarball: http://registry.npm.baidu-int.com/miaoda-auth-react/-/miaoda-auth-react-2.0.6.tgz}
     peerDependencies:
       '@supabase/supabase-js': '*'
       react: '*'
