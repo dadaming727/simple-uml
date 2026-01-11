@@ -114,7 +114,7 @@ option?: {
 };
 }) => {
 const mapRef = useRef<HTMLDivElement>(null);
-const currentRef = useRef(null);
+const currentRef = useRef<any>(null);
 
 const _options = useMemo(() => {
     return { ...defaultOption, ...option };
@@ -138,6 +138,7 @@ const initMap = useCallback(() => {
     currentRef.current = map;
     }
 
+    if (map) {
     // Clear overlays
     map.clearOverlays();
 
@@ -152,6 +153,7 @@ const initMap = useCallback(() => {
     // Add marker
     const marker = new (window as any).BMapGL.Marker(center);
     map.addOverlay(marker);
+    }
 }, [_options]);
 
 useEffect(() => {
